@@ -18,7 +18,7 @@
 * NAT小鸡需带PORT变量运行并确保PORT之后的1个端口可用，或运行完后更改订阅端口和grpc-reality端口
 
 ```
-bash <(curl -Ls https://github.com/eooce/xray-2go/raw/main/xray_2go.sh)
+bash <(curl -Ls https://github.com/arnoswift/xray-2go-main/raw/main/xray_2go.sh)
 ```
 
 带变量运行示例,修改为自己需要定义的参数
