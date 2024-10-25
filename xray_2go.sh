@@ -24,7 +24,7 @@ export UUID=${UUID:-$(cat /proc/sys/kernel/random/uuid)}
 export PORT=${PORT:-$(shuf -i 1000-60000 -n 1)}
 export ARGO_PORT=${ARGO_PORT:-'8080'}
 export CFIP=${CFIP:-'www.visa.com.tw'} 
-export CFPORT=${CFPORT:-'8443'}   
+export CFPORT=${CFPORT:-'443'}   
 
 # 检查是否为root下运行
 [[ $EUID -ne 0 ]] && red "请在root用户下运行脚本" && exit 1
